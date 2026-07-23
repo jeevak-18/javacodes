@@ -1,0 +1,24 @@
+class mydaddy{
+    void display(){
+        System.out.println("My father is a farmer");
+    }
+}
+class mysister extends mydaddy{
+    void display(){
+        System.out.println("my sister is ateacher");
+    }
+}
+class me extends mydaddy{
+    void display1(){
+        System.out.println("me is a student");
+    }
+}
+public class Inheritance{
+    public static void main(String[]args){
+    me obj =new me();
+    obj.display();
+    mysister sis =new mysister();
+    sis.display();
+    obj.display1();
+    }
+}
