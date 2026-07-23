@@ -1,0 +1,21 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class parents {
+    void display(){
+        System.out.println("This is the parent class");
+    }
+}
+class child extends parents{
+    void show(){
+        System.out.println("This is the child class");
+    }
+}
+public class Main {
+    public static void main(String[]args){
+        child obj=new child();
+        obj.display();
+        obj.show();
+    }
+}
+    
